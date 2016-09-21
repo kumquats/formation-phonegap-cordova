@@ -28,7 +28,7 @@ $> cordova platform add android
 - passer l'application en plein écran
 - désactiver la couleur du tap en css (cf. CSS générée par Cordova)
 - empêcher l'application de scroller
-- utiliser les événements touchestrat plutôt que click
+- utiliser les événements touchstart plutôt que click
 
 **4- prendre l'utilisateur en photo au lancement du jeu**
 - installer le plugin Cordova permettant de manipuler la caméra
@@ -41,7 +41,7 @@ $> cordova plugin add cordova-plugin-camera
 **5- utiliser l'accéléromètre pour déplacer le joueur**
 - installer le plugin cordova permettant d'utiliser l'accéléromètre du device :
 ```bash
-cordova plugin add cordova-plugin-device-motion
+$> cordova plugin add cordova-plugin-device-motion
 ```
 - utiliser la méthode watchAcceleration et inspecter les valeurs retournées
 - modifier la position de l'image en fonction de l'accélération 
