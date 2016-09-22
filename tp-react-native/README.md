@@ -26,9 +26,9 @@ react-native run-android
 
 
 ## Instructions
-- Créer un composant SearchForm contenant sur la même ligne un champ de saisie (TextInput) et un bouton (TouchableHighlight ou TouchableNativeFeedback (Android uniquement))
+- Créer un composant SearchForm contenant sur la même ligne un champ de saisie (TextInput) et un bouton (TouchableHighlight ou TouchableNativeFeedback (Android uniquement)) cf. http://facebook.github.io/react-native/releases/0.33/docs/layout-props.html
 - Afficher le composant SearchForm dans l'application
-- Détecter le clic sur le bouton submit du SearchForm et lancer une requête ajax vers l'api wikipedia cf. http://facebook.github.io/react-native/releases/0.33/docs/layout-props.html
+- Détecter le clic sur le bouton submit du SearchForm et lancer une requête ajax vers l'api wikipedia 
 - afficher un loading dans la page pendant le chargement
 - Créer un composant permettant d'afficher les résultats de recherche dans via une ListView
 
