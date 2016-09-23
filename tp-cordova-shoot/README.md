@@ -22,13 +22,14 @@ $> cordova platform add android
 - modifier le index.html pour utiliser un fichier jquery local
 - inclure cordova.js
 - dans le main.js remplacer l'événement jquery "ready" par l'événement cordova "deviceready"
-NB: si vous utilisez la version es6, installez babel 
+
+NB: si vous utilisez la version es6, installez babel dans le dossier www
 ```bash
 npm install --save-dev babel-cli babel-loader babel-core babel-preset-es2015
 ```
 et compilez l'application avec la commande :
 ```bash
-.\node_modules\\.bin\babel js -d build --watch --source-maps
+.\node_modules\.bin\babel js -d build --watch --source-maps
 ```
 
 **3- optimisations**
