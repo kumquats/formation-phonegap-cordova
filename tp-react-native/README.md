@@ -5,6 +5,14 @@ Créer une application React Native de moteur de recherche dans les articles wik
 
 ## Préparatifs
 - ajouter la variable d'environnement ANDROID_HOME vers le dossier sdk
+- vérifier la version de node et si nécessaire désinstaller et installer une version à jour (v6.6+)
+```bash
+node -v
+```
+- mettre à jour npm 
+```bash
+npm install -g npm
+```
 - installer react-native-cli 
 ```bash
 npm install -g react-native-cli
